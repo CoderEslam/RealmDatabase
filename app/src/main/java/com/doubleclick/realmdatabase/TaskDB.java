@@ -2,7 +2,9 @@ package com.doubleclick.realmdatabase;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
+import io.realm.annotations.RealmClass;
 
+@RealmClass
 public class TaskDB extends RealmObject {
 
     public TaskDB(int id, String task) {
